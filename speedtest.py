@@ -1,8 +1,12 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # Copyright 2012 Matt Martz
-# - Update 20260625 JAWI -
 # All Rights Reserved.
+#
+# Modified 2026-09-25 by Jan Willem Wijnands:
+#   - live progress meter for download/upload (--plain for classic output)
+#   - fix datetime.utcnow() deprecation, ping averaging, Py3.12 SSL fallback
+#   - more robust --list / CSV output
 #
 #    Licensed under the Apache License, Version 2.0 (the "License"); you may
 #    not use this file except in compliance with the License. You may obtain
